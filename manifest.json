@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "funkyfirefox",
+    "version": "1.0",
+  
+    "description": "enhance your browsing experience",
+  
+    "icons": {
+      "48": "icons/border-48.png"
+    },
+  
+    "content_scripts": [
+      {
+        "matches": ["*://*.mozilla.org/*"],
+        "js": ["funkyfirefox.js"]
+      }
+    ]
+  }
+  
