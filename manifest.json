@@ -14,7 +14,7 @@
     "browser_action": {
       "default_icon": "icons/goofy.png",
       "default_title": "funkyfirefox",
-      "default_popup": "popup/goofyahhh.html"
+      "default_popup": "popup/settings.html"
     }
   
   }
