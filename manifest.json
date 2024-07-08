@@ -4,16 +4,18 @@
     "version": "1.0",
   
     "description": "enhance your browsing experience",
-  
+    "homepage_url": "https://github.com/jostbem/funkyfirefox",
     "icons": {
-      "48": "icons/border-48.png"
+      "48": "icons/goofy-ahhhh.png"
     },
   
-    "content_scripts": [
-      {
-        "matches": ["*://*.mozilla.org/*"],
-        "js": ["funkyfirefox.js"]
-      }
-    ]
+    "permissions": ["activeTab"],
+  
+    "browser_action": {
+      "default_icon": "icons/goofy.png",
+      "default_title": "funkyfirefox",
+      "default_popup": "popup/goofyahhh.html"
+    }
+  
   }
   
